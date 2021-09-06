@@ -2,11 +2,11 @@
   width: 70%;
   margin: auto;
   text-align: center;
-  height: 86vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 7vh 0;
+  padding-bottom: 10vh;
 }
 .rootCont h1 {
   color: rgb(64, 112, 244);

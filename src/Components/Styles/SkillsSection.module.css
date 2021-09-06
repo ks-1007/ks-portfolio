@@ -1,0 +1,48 @@
+.rootCont {
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding-bottom: 10vh;
+}
+
+.rootCont h1 {
+  color: rgb(64, 112, 244);
+  border-bottom: 3px solid rgb(64, 112, 244);
+  width: 70px;
+  margin: 0 auto;
+}
+
+.skillsCont {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid rgb(64, 112, 244); */
+  border-radius: 10px;
+  height: 50vh;
+}
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+}
+.skillIcon {
+  font-size: 40px;
+  color: rgb(64, 112, 244);
+}
+@media only screen and (max-width: 800px) {
+  .rootCont {
+    height: 140vh;
+  }
+  .skillsCont {
+    grid-template-columns: repeat(2, 50%);
+    height: 120vh;
+  }
+}
