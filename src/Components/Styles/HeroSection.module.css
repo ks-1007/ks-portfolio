@@ -49,7 +49,7 @@
     grid-template-areas:
       "nameCont nameCont "
       "socialCont photoCont";
-    width: 95%;
+    width: 90%;
     grid-template-columns: 20% 80%;
     align-items: flex-start;
   }
