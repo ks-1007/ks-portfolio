@@ -40,6 +40,7 @@
 @media only screen and (max-width: 800px) {
   .rootCont {
     height: 140vh;
+    padding-bottom: 5vh;
   }
   .skillsCont {
     grid-template-columns: repeat(2, 50%);
