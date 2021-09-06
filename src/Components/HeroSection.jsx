@@ -9,7 +9,8 @@ const useStyles = makeStyles({
     backgroundColor: "rgb(64,112,244)",
     width: "130px",
     height: "45px",
-
+    // fontSize: "17px",
+    // fontWeight: "500",
     "&:hover": {
       backgroundColor: "#83a4ff",
     },

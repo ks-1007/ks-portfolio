@@ -7,7 +7,8 @@
 
   width: 80%;
   margin: auto;
-  font-style: "Poppins", sans-serif;
+  height: 100vh;
+  align-items: center;
 }
 .nameCont {
   grid-area: nameCont;
@@ -34,7 +35,7 @@
   grid-area: socialCont;
   width: 20%;
   /* border: 2px solid black; */
-
+  /* height: 50vh; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,13 +51,15 @@
       "socialCont photoCont";
     width: 95%;
     grid-template-columns: 20% 80%;
+    align-items: flex-start;
   }
   .socialCont {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    max-height: 200px;
+    justify-content: space-between;
+    max-height: 150px;
     width: 100%;
     align-items: center;
   }
