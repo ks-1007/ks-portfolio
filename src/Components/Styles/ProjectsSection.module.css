@@ -1,0 +1,90 @@
+/*Projects Container Section*/
+.projectsSectionCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.projectsSectionCont h1 {
+  color: rgb(64, 112, 244);
+  border-bottom: 3px solid rgb(64, 112, 244);
+}
+.projectsSectionCont h2 {
+  color: rgb(64, 112, 244);
+  margin-bottom: 0;
+  /* border-bottom: 3px solid rgb(64, 112, 244); */
+}
+
+.stackIcon {
+  color: rgb(90, 134, 255);
+  font-size: 30px;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+/*Project Card*/
+.projectCont {
+  width: 50%;
+  margin: 100px auto;
+  /* border: 2px solid rgb(192, 192, 192); */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* background-color: rgb(246, 246, 246); */
+}
+.projectCont h2 {
+  color: rgb(64, 112, 244);
+  text-align: center;
+}
+.image {
+  border-radius: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(97, 139, 255); */
+  height: 40px;
+  padding: 5px 0;
+}
+.linkCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 10px 0;
+}
+.linkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(73, 121, 255);
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  border-radius: 25px;
+  width: 100px;
+}
+.linkDiv:hover {
+  background-color: rgb(148, 177, 255);
+}
+.linkDiv p {
+  margin: 5px;
+}
+.stacksDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .projectCont {
+    width: 80%;
+  }
+}
