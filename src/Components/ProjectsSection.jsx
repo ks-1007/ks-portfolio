@@ -9,7 +9,7 @@ const projects = [
   {
     name: "Airbnb clone",
     img: "/Airbnb.png",
-    link: "https://github.com/ks-1007/Airbnb-clone",
+    link: "https://airbnb-clone-one-weld.vercel.app/",
     git: "https://github.com/ks-1007/Airbnb-clone",
     stacks: [
       <SiReact className={styles.stackIcon} />,
@@ -33,7 +33,7 @@ const projects = [
   {
     name: "Sephora clone",
     img: "/sephora.png",
-    link: "https://github.com/ks-1007/Project-Sephora",
+    link: "https://project-sephora.vercel.app/",
     git: "https://github.com/ks-1007/Project-Sephora",
     stacks: [
       <SiReact className={styles.stackIcon} />,
