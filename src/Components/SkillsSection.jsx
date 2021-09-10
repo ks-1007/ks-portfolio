@@ -16,42 +16,61 @@ export function SkillsSection() {
   const classes = useStyles()
   return (
     <div className={styles.rootCont}>
-      <h1>Skills</h1>
+      <p>Skills</p>
       <div className={styles.skillsCont}>
         <SkillCard
           skill="React"
-          icon={<GrReactjs className={styles.skillIcon} />}
+          icon={
+            <GrReactjs className={`${styles.skillIcon} ${styles.reactIcon}`} />
+          }
         />
         <SkillCard
           skill="Redux"
-          icon={<SiRedux className={styles.skillIcon} />}
+          icon={
+            <SiRedux className={`${styles.skillIcon} ${styles.reduxIcon}`} />
+          }
         />
         <SkillCard
           skill="JavaScript"
-          icon={<SiJavascript className={styles.skillIcon} />}
+          icon={
+            <SiJavascript className={`${styles.skillIcon} ${styles.jsIcon}`} />
+          }
         />
         <SkillCard
           skill="Material Ui"
-          icon={<SiMaterialUi className={styles.skillIcon} />}
+          icon={
+            <SiMaterialUi className={`${styles.skillIcon} ${styles.muiIcon}`} />
+          }
         />
 
         <SkillCard
           skill="Html"
-          icon={<SiHtml5 className={styles.skillIcon} />}
+          icon={
+            <SiHtml5 className={`${styles.skillIcon} ${styles.htmlIcon}`} />
+          }
         />
-        <SkillCard skill="Css" icon={<SiCss3 className={styles.skillIcon} />} />
+        <SkillCard
+          skill="Css"
+          icon={<SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />}
+        />
         <SkillCard
           skill="Node"
-          icon={<SiNodeDotJs className={styles.skillIcon} />}
+          icon={
+            <SiNodeDotJs className={`${styles.skillIcon} ${styles.nodeIcon}`} />
+          }
         />
 
         <SkillCard
           skill="MongoDb"
-          icon={<SiMongodb className={styles.skillIcon} />}
+          icon={
+            <SiMongodb className={`${styles.skillIcon} ${styles.mongoIcon}`} />
+          }
         />
         <SkillCard
           skill="Git"
-          icon={<FaGitAlt className={styles.skillIcon} />}
+          icon={
+            <FaGitAlt className={`${styles.skillIcon} ${styles.gitIcon}`} />
+          }
         />
       </div>
     </div>

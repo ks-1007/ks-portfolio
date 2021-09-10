@@ -23,7 +23,8 @@
   margin: 10px 0;
 }
 .nameCont p span {
-  color: rgb(64, 112, 244);
+  /* color: rgb(64, 112, 244); */
+  color: rgb(8, 111, 143);
 }
 .photoCont {
   grid-area: photoCont;
@@ -42,7 +43,11 @@
 }
 .contactBtn {
   color: white;
-  background-color: pink;
+  /* background-color: pink; */
+}
+.heroImg {
+  width: 100%;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 800px) {
   .rootCont {

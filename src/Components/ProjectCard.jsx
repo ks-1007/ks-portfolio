@@ -18,7 +18,8 @@ export function ProjectCard({ name, img, git, link, stacks }) {
               <p>Code</p>
             </div>
           </a>
-          <div className={styles.stacksDiv}>{stacks.map((stack) => stack)}</div>
+          {/* <div className={styles.stacksDiv}>{stacks.map((stack) => stack)}</div> */}
+          <p>{name}</p>
           <a href={link} target="_blank">
             <div className={styles.linkDiv}>
               <LinkIcon />

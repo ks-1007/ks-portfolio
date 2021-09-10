@@ -7,7 +7,7 @@ import { SiCss3 } from "react-icons/si"
 
 const projects = [
   {
-    name: "Airbnb clone",
+    name: "Airbnb.com clone",
     img: "/Airbnb.png",
     link: "https://airbnb-clone-one-weld.vercel.app/",
     git: "https://github.com/ks-1007/Airbnb-clone",
@@ -19,7 +19,7 @@ const projects = [
     ],
   },
   {
-    name: "Glassdoor clone",
+    name: "Glassdoor.com clone",
     img: "/glassdoor-pic.png",
     link: "https://github.com/chandan1499/Project-glassdoor",
     git: "https://github.com/chandan1499/Project-glassdoor",
@@ -31,7 +31,7 @@ const projects = [
     ],
   },
   {
-    name: "Sephora clone",
+    name: "Sephora.com clone",
     img: "/sephora.png",
     link: "https://project-sephora.vercel.app/",
     git: "https://github.com/ks-1007/Project-Sephora",
@@ -46,7 +46,7 @@ const projects = [
 export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont}>
-      <h1>Projects</h1>
+      <p>Projects</p>
       {projects.map((project) => (
         <ProjectCard {...project} />
       ))}

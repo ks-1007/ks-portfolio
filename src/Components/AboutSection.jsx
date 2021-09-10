@@ -6,7 +6,7 @@ export function AboutSection() {
   const classes = useStyles()
   return (
     <div className={styles.rootCont}>
-      <h1>About</h1>
+      <p>About</p>
       <div className={styles.mainCont}>
         <div className={styles.profilePicCont}>
           <img
@@ -16,7 +16,9 @@ export function AboutSection() {
           />
         </div>
         <div>
-          <h2>I'am Saurav</h2>
+          <h2>
+            I'am <span>Saurav</span>{" "}
+          </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
             perferendis, itaque saepe distinctio accusamus commodi earum dolores

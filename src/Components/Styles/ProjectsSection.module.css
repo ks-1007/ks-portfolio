@@ -7,17 +7,28 @@
   min-height: 100vh;
 }
 .projectsSectionCont h1 {
-  color: rgb(64, 112, 244);
-  border-bottom: 3px solid rgb(64, 112, 244);
+  /* color: rgb(64, 112, 244); */
+  /* color: rgb(8, 111, 143); */
+  color: rgb(0, 49, 64);
+  /* border-bottom: 3px solid rgb(64, 112, 244); */
+  /* border-bottom: 3px solid rgb(8, 111, 143); */
 }
 .projectsSectionCont h2 {
-  color: rgb(64, 112, 244);
-  margin-bottom: 0;
+  /* color: rgb(64, 112, 244); */
+  color: rgb(8, 111, 143);
+  margin: 0;
   /* border-bottom: 3px solid rgb(64, 112, 244); */
 }
-
+.projectsSectionCont > p {
+  font-size: 40px;
+  font-weight: 400;
+  /* border-bottom: 3px solid rgb(8, 111, 143); */
+  /* margin: 0; */
+  /* color: rgb(8, 111, 143); */
+}
 .stackIcon {
-  color: rgb(90, 134, 255);
+  /* color: rgb(90, 134, 255); */
+  color: rgb(8, 111, 143);
   font-size: 30px;
   margin: 5px;
 }
@@ -29,16 +40,24 @@ a {
   width: 50%;
   margin: 50px auto;
   /* border: 2px solid rgb(192, 192, 192); */
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
   /* background-color: rgb(246, 246, 246); */
 }
 .projectCont h2 {
-  color: rgb(64, 112, 244);
+  /* color: rgb(64, 112, 244); */
+  color: rgb(8, 111, 143);
   text-align: center;
 }
 .image {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
   border-bottom: 1px solid rgb(224, 224, 224);
   margin: auto;
@@ -59,20 +78,30 @@ a {
 
   padding: 10px 0;
 }
+.linkCont > p {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(8, 111, 143);
+}
 .linkDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-color: rgb(73, 121, 255);
+  /* background-color: rgb(73, 121, 255); */
+  /* background-color: rgb(8, 111, 143); */
+  background-color: rgb(8, 111, 143);
   color: white;
   font-weight: 500;
   height: 40px;
-  border-radius: 25px;
+  /* border-radius: 25px; */
+  border-radius: 5px;
   width: 100px;
 }
 .linkDiv:hover {
-  background-color: rgb(148, 177, 255);
+  /* background-color: rgb(148, 177, 255); */
+  background-color: rgb(14, 129, 165);
 }
 .linkDiv p {
   margin: 5px;
@@ -89,6 +118,9 @@ a {
     margin: 30px auto;
   }
   .stacksDiv {
+    display: none;
+  }
+  .linkCont > p {
     display: none;
   }
 }
