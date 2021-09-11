@@ -1,0 +1,48 @@
+.rootCont {
+  text-align: center;
+  height: 45vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactHeading {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px;
+}
+.text {
+  font-size: 20px;
+}
+.iconsCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkedInIcon {
+  font-size: 40px;
+  margin: 0 10px;
+  /* color: rgb(10, 102, 194); */
+  cursor: pointer;
+}
+.linkedInIcon:hover {
+  color: rgb(17, 121, 224);
+}
+.gitIcon {
+  font-size: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.gitIcon:hover {
+  color: rgb(80, 80, 80);
+}
+.emailicon {
+  font-size: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.emailicon:hover {
+  color: rgb(80, 80, 80);
+}
