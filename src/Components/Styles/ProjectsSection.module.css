@@ -112,7 +112,7 @@ a {
   align-items: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .projectCont {
     width: 80%;
     margin: 30px auto;
