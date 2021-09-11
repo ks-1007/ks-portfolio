@@ -20,9 +20,9 @@ export function AboutSection() {
             I'am <span>Saurav</span>{" "}
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            perferendis, itaque saepe distinctio accusamus commodi earum dolores
-            recusandae nesciunt est.
+            A web developer with an excellent problem solving skills and ability
+            to perform well in a team. Proficient in front-end, back-end and
+            data structures and algorithms.
           </p>
         </div>
       </div>
