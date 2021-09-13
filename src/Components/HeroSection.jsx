@@ -64,11 +64,16 @@ export function HeroSection() {
         <a
           href="https://www.linkedin.com/in/kumar-saurav-90a898179/"
           className={classes.a}
+          target="_blank"
         >
           {/* <LinkedInIcon className={classes.linkedInIcon} /> */}
           <AiFillLinkedin className={styles.linkedInIcon} />
         </a>
-        <a href="https://github.com/ks-1007" className={classes.a}>
+        <a
+          href="https://github.com/ks-1007"
+          className={classes.a}
+          target="_blank"
+        >
           {/* <GitHubIcon className={classes.gitIcon} /> */}
           <AiOutlineGithub className={styles.gitIcon} />
         </a>
