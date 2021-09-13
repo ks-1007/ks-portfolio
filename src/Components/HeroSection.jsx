@@ -21,11 +21,20 @@ const useStyles = makeStyles({
     fontSize: "40px",
     // color: "rgb(10,102,194)",
     color: "rgb(8, 111, 143)",
+    "&:hover": {
+      backgroundColor: "rgb(17, 155, 197)",
+    },
   },
   gitIcon: {
     fontSize: "35px",
     color: "rgb(42, 42, 42)",
     // color: " rgb(0, 49, 64)",
+    "&:hover": {
+      backgroundColor: "rgb(100, 100, 100)",
+    },
+  },
+  a: {
+    textDecoration: "none",
   },
 })
 export function HeroSection() {
@@ -43,13 +52,6 @@ export function HeroSection() {
         </Button>
       </div>
       <div className={styles.photoCont}>
-        {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path
-            fill="#4070F4"
-            d="M30.8,-27.6C42,-19.6,54.7,-9.8,55.7,1C56.6,11.7,45.9,23.4,34.7,32.9C23.4,42.3,11.7,49.4,-3.9,53.3C-19.5,57.2,-38.9,57.8,-47.8,48.4C-56.7,38.9,-55.1,19.5,-52.5,2.6C-49.9,-14.3,-46.4,-28.6,-37.5,-36.6C-28.6,-44.7,-14.3,-46.5,-2.2,-44.3C9.8,-42,19.6,-35.7,30.8,-27.6Z"
-            transform="translate(90 60)"
-          />
-        </svg> */}
         <img
           src="https://camo.githubusercontent.com/e4a569755580f96dce0e6d65bc761e0d9aef0fecae524ec73a1b0be60fc934fa/68747470733a2f2f7777772e6d79676f2e67652f75706c6f6164732f626c6f672f313538343032333739352e6a7067"
           alt=""
@@ -57,8 +59,15 @@ export function HeroSection() {
         />
       </div>
       <div className={styles.socialCont}>
-        <LinkedInIcon className={classes.linkedInIcon} />
-        <GitHubIcon className={classes.gitIcon} />
+        <a
+          href="https://www.linkedin.com/in/kumar-saurav-90a898179/"
+          className={classes.a}
+        >
+          <LinkedInIcon className={classes.linkedInIcon} />
+        </a>
+        <a href="https://github.com/ks-1007" className={classes.a}>
+          <GitHubIcon className={classes.gitIcon} />
+        </a>
       </div>
     </div>
   )

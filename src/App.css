@@ -1,6 +1,9 @@
 * {
   font-style: "Poppins", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 .App {
   width: 100%;
 }

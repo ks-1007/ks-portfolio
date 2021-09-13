@@ -8,6 +8,9 @@
   align-items: center;
   justify-content: center;
 }
+a {
+  text-decoration: none;
+}
 .contactHeading {
   font-size: 40px;
   font-weight: 400;
@@ -26,23 +29,26 @@
   margin: 0 10px;
   /* color: rgb(10, 102, 194); */
   cursor: pointer;
+  color: white !important;
 }
 .linkedInIcon:hover {
-  color: rgb(17, 121, 224);
+  color: rgb(17, 121, 224) !important;
 }
 .gitIcon {
   font-size: 40px;
   margin: 0 10px;
   cursor: pointer;
+  color: white !important;
 }
 .gitIcon:hover {
-  color: rgb(80, 80, 80);
+  color: rgb(80, 80, 80) !important;
 }
 .emailicon {
   font-size: 40px;
   margin: 0 10px;
   cursor: pointer;
+  color: white !important;
 }
 .emailicon:hover {
-  color: rgb(80, 80, 80);
+  color: rgb(80, 80, 80) !important;
 }

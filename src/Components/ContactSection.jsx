@@ -7,14 +7,20 @@ export function ContactSection() {
   return (
     <div className={styles.rootCont}>
       <p className={styles.contactHeading}>Contact Me</p>
-
+      <hr style={{ width: "100%" }} />
       <p className={styles.text}>Liked my work? Want to get in touch?</p>
       {/* <p className={styles.text}></p> */}
       <p className={styles.text}>You can reach out to me at:</p>
       <div className={styles.iconsCont}>
-        <AiOutlineMail className={styles.emailicon} />
-        <AiFillLinkedin className={styles.linkedInIcon} />
-        <AiOutlineGithub className={styles.gitIcon} />
+        <a href="mailto:krsaurav1007@gmail.com">
+          <AiOutlineMail className={styles.emailicon} />
+        </a>
+        <a href="https://www.linkedin.com/in/kumar-saurav-90a898179/">
+          <AiFillLinkedin className={styles.linkedInIcon} />
+        </a>
+        <a href="https://github.com/ks-1007">
+          <AiOutlineGithub className={styles.gitIcon} />
+        </a>
       </div>
     </div>
   )
