@@ -12,7 +12,7 @@ export function ContactSection() {
       {/* <p className={styles.text}></p> */}
       <p className={styles.text}>You can reach out to me at:</p>
       <div className={styles.iconsCont}>
-        <a href="mailto:krsaurav1007@gmail.com" target="_blank">
+        <a href="mailto:krsaurav1007@gmail.com">
           <AiOutlineMail className={styles.emailicon} />
         </a>
         <a
