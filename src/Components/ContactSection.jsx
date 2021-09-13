@@ -7,7 +7,7 @@ export function ContactSection() {
   return (
     <div className={styles.rootCont}>
       <p className={styles.contactHeading}>Contact Me</p>
-      <hr style={{ width: "100%" }} />
+      <hr style={{ width: "95vw" }} />
       <p className={styles.text}>Liked my work? Want to get in touch?</p>
       {/* <p className={styles.text}></p> */}
       <p className={styles.text}>You can reach out to me at:</p>
