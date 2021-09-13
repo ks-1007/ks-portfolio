@@ -3,6 +3,8 @@ import { makeStyles } from "@material-ui/styles"
 import styles from "./Styles/HeroSection.module.css"
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import GitHubIcon from "@material-ui/icons/GitHub"
+import { AiOutlineGithub } from "react-icons/ai"
+import { AiFillLinkedin } from "react-icons/ai"
 const useStyles = makeStyles({
   contactBtn: {
     color: "white",
@@ -63,10 +65,12 @@ export function HeroSection() {
           href="https://www.linkedin.com/in/kumar-saurav-90a898179/"
           className={classes.a}
         >
-          <LinkedInIcon className={classes.linkedInIcon} />
+          {/* <LinkedInIcon className={classes.linkedInIcon} /> */}
+          <AiFillLinkedin className={styles.linkedInIcon} />
         </a>
         <a href="https://github.com/ks-1007" className={classes.a}>
-          <GitHubIcon className={classes.gitIcon} />
+          {/* <GitHubIcon className={classes.gitIcon} /> */}
+          <AiOutlineGithub className={styles.gitIcon} />
         </a>
       </div>
     </div>
