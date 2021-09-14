@@ -5,6 +5,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import GitHubIcon from "@material-ui/icons/GitHub"
 import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
+import { CgSoftwareDownload } from "react-icons/cg"
+import { RiDownloadLine } from "react-icons/ri"
 const useStyles = makeStyles({
   contactBtn: {
     color: "white",
@@ -50,7 +52,8 @@ export function HeroSection() {
         </p>
         <p>Web Developer</p>
         <Button variant="contained" className={classes.contactBtn}>
-          Contact
+          <RiDownloadLine style={{ fontSize: "18px", marginLeft: "10px" }} />{" "}
+          Resume
         </Button>
       </div>
       <div className={styles.photoCont}>
