@@ -9,15 +9,6 @@ export function ContactSection() {
       <p className={styles.contactHeading}>Contact Me</p>
       <hr style={{ width: "95vw" }} />
       <p className={styles.text}>Liked my work? Want to get in touch?</p>
-      {/* <p className={styles.text}></p> */}
-      {/* <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      > */}
-      {/* </div> */}
       <p className={styles.text}>You can reach out to me at:</p>
       <div className={styles.iconsCont}>
         <a href="mailto:krsaurav1007@gmail.com">
