@@ -9,7 +9,7 @@ import { SkillsSection } from "./Components/SkillsSection"
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <AboutSection />
       <SkillsSection />

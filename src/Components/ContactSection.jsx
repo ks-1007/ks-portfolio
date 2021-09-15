@@ -5,7 +5,7 @@ import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 export function ContactSection() {
   return (
-    <div className={styles.rootCont}>
+    <div className={styles.rootCont} id="contact">
       <p className={styles.contactHeading}>Contact Me</p>
       <hr style={{ width: "95vw" }} />
       <p className={styles.text}>Liked my work? Want to get in touch?</p>

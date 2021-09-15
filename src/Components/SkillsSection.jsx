@@ -15,7 +15,7 @@ const useStyles = makeStyles({})
 export function SkillsSection() {
   const classes = useStyles()
   return (
-    <div className={styles.rootCont}>
+    <div className={styles.rootCont} id="skills">
       <p>Skills</p>
       <div className={styles.skillsCont}>
         <SkillCard

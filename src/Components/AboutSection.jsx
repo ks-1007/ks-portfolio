@@ -5,7 +5,7 @@ const useStyles = makeStyles({})
 export function AboutSection() {
   const classes = useStyles()
   return (
-    <div className={styles.rootCont}>
+    <div className={styles.rootCont} id="about">
       <p>About</p>
       <div className={styles.mainCont}>
         <div className={styles.profilePicCont}>

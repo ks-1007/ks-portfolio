@@ -53,7 +53,7 @@ const projects = [
 ]
 export function ProjectsSection() {
   return (
-    <div className={styles.projectsSectionCont}>
+    <div className={styles.projectsSectionCont} id="projects">
       <p>Projects</p>
       <div className={styles.projectGrid}>
         {projects.map((project) => (

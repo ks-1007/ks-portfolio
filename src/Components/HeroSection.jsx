@@ -44,7 +44,7 @@ const useStyles = makeStyles({
 export function HeroSection() {
   const classes = useStyles()
   return (
-    <div className={styles.rootCont}>
+    <div className={styles.rootCont} id="hero">
       <div className={styles.nameCont}>
         <p>Hi,</p>
         <p>
