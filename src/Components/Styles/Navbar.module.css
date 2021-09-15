@@ -43,7 +43,7 @@ a {
   /* padding-left: 25%; */
   /* border: 2px solid black; */
   text-align: center;
-  margin-left: 30%;
+  margin-left: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +73,7 @@ a {
   .navlogo {
     height: 47px;
     width: 50px;
+    margin-left: 5%;
     /* border: 2px solid black; */
   }
   .nav:hover {
