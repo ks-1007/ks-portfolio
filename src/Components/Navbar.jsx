@@ -4,7 +4,9 @@ export function Navbar() {
   return (
     <div className={styles.root}>
       <Link to="hero" smooth={true} duration={1000}>
-        <div className={styles.nav}>logo</div>
+        <div className={styles.navlogo}>
+          <img src="/logo-2.png" alt="" className={styles.logoimg} />
+        </div>
       </Link>
       <div className={styles.navsCont}>
         <Link to="about" smooth={true} duration={1000}>

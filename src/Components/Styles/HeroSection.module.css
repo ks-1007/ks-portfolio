@@ -72,7 +72,7 @@ a {
   width: 100%;
   border-radius: 5px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
   .rootCont {
     grid-template-areas:
       "nameCont nameCont "
@@ -80,6 +80,8 @@ a {
     width: 90%;
     grid-template-columns: 20% 80%;
     align-items: flex-start;
+    height: 93vh;
+    padding-top: 7vh;
   }
   .socialCont {
     padding-top: 50px;

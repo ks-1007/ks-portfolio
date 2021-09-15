@@ -50,7 +50,7 @@
   background-color: rgb(194, 195, 201);
   border-radius: 10px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
   .mainCont {
     display: flex;
     flex-direction: column;
