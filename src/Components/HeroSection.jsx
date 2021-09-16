@@ -51,10 +51,16 @@ export function HeroSection() {
           I'am <span>Saurav</span>{" "}
         </p>
         <p>Web Developer</p>
-        <Button variant="contained" className={classes.contactBtn}>
-          <RiDownloadLine style={{ fontSize: "18px", marginLeft: "10px" }} />{" "}
-          Resume
-        </Button>
+        <a
+          href="https://drive.google.com/file/d/15ub-tWTmRStifo9LPtgMa5BajJQgQEIc/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="contained" className={classes.contactBtn}>
+            <RiDownloadLine style={{ fontSize: "18px", marginLeft: "10px" }} />{" "}
+            Resume
+          </Button>
+        </a>
       </div>
       <div className={styles.photoCont}>
         <img
