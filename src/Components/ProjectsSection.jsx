@@ -26,7 +26,7 @@ const projects = [
   {
     name: "Glassdoor.com clone",
     img: "/glassdoor-pic1.png",
-    link: "https://infallible-blackwell-c0f2c5.netlify.app/",
+    link: "https://glassdoor-clone.netlify.app/",
     git: "https://github.com/chandan1499/Project-glassdoor",
     about:
       "Glassdoor is a job searching website which also allows employees to post their salaries and company reviews anonymously.",
