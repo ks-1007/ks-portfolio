@@ -9,15 +9,18 @@ import { SiHtml5 } from "react-icons/si"
 import { SiCss3 } from "react-icons/si"
 import { SiNodeDotJs } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
+import { SiNpm } from "react-icons/si"
+import { SiPostman } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
-import { Paper } from "@material-ui/core"
+
 const useStyles = makeStyles({})
 export function SkillsSection() {
   const classes = useStyles()
   return (
     <div className={styles.rootCont} id="skills">
       <p>Skills</p>
-      <div className={styles.skillsCont}>
+      <p>Front-end Skills</p>
+      <div className={styles.skillsContFront}>
         <SkillCard
           skill="React"
           icon={
@@ -53,6 +56,9 @@ export function SkillsSection() {
           skill="Css"
           icon={<SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />}
         />
+      </div>
+      <p>Back-end Skills</p>
+      <div className={styles.skillsContBack}>
         <SkillCard
           skill="Node"
           icon={
@@ -66,10 +72,30 @@ export function SkillsSection() {
             <SiMongodb className={`${styles.skillIcon} ${styles.mongoIcon}`} />
           }
         />
+
+        <SkillCard
+          skill="Express"
+          icon={
+            <p className={`${styles.expSkillIcon} ${styles.expIcon}`}>ex</p>
+          }
+        />
+      </div>
+      <p>Tools</p>
+      <div className={styles.toolsDiv}>
         <SkillCard
           skill="Git"
           icon={
             <FaGitAlt className={`${styles.skillIcon} ${styles.gitIcon}`} />
+          }
+        />
+        <SkillCard
+          skill="Npm"
+          icon={<SiNpm className={`${styles.skillIcon} ${styles.gitIcon}`} />}
+        />
+        <SkillCard
+          skill="Postman"
+          icon={
+            <SiPostman className={`${styles.skillIcon} ${styles.gitIcon}`} />
           }
         />
       </div>
