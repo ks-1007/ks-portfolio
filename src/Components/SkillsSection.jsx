@@ -19,7 +19,7 @@ export function SkillsSection() {
   return (
     <div className={styles.rootCont} id="skills">
       <p>Skills</p>
-      <p>Front-end Skills</p>
+      <p>Front-end skills</p>
       <div className={styles.skillsContFront}>
         <SkillCard
           skill="React"
@@ -57,7 +57,7 @@ export function SkillsSection() {
           icon={<SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />}
         />
       </div>
-      <p>Back-end Skills</p>
+      <p>Back-end skills</p>
       <div className={styles.skillsContBack}>
         <SkillCard
           skill="Node"
