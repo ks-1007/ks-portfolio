@@ -5,8 +5,27 @@ import { SiJavascript } from "react-icons/si"
 import { SiHtml5 } from "react-icons/si"
 import { SiCss3 } from "react-icons/si"
 import { SiRedux } from "react-icons/si"
+import { SiNodedotjs } from "react-icons/si"
+import { SiExpress } from "react-icons/si"
+import { SiMongodb } from "react-icons/si"
 
 const projects = [
+  {
+    name: "LinkedIn.com clone",
+    img: "/linkedin-pic.png",
+    link: "https://linkedin-clone-sigma.vercel.app/",
+    git: "https://github.com/ks-1007/LinkedIn-project",
+    about:
+      "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development, and allows job seekers to post their CVs and employers to post jobs.",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiNodedotjs className={styles.stackIcon} />,
+      <SiExpress className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
   {
     name: "Airbnb.com clone",
     img: "/Airbnb.png",

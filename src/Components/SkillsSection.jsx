@@ -4,13 +4,14 @@ import styles from "./Styles/SkillsSection.module.css"
 import { GrReactjs } from "react-icons/gr"
 import { SiRedux } from "react-icons/si"
 import { SiJavascript } from "react-icons/si"
-import { SiMaterialUi } from "react-icons/si"
+import { SiMaterialui } from "react-icons/si"
 import { SiHtml5 } from "react-icons/si"
 import { SiCss3 } from "react-icons/si"
-import { SiNodeDotJs } from "react-icons/si"
+import { SiNodedotjs } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
 import { SiNpm } from "react-icons/si"
 import { SiPostman } from "react-icons/si"
+import { SiExpress } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
 
 const useStyles = makeStyles({})
@@ -42,7 +43,7 @@ export function SkillsSection() {
         <SkillCard
           skill="Material Ui"
           icon={
-            <SiMaterialUi className={`${styles.skillIcon} ${styles.muiIcon}`} />
+            <SiMaterialui className={`${styles.skillIcon} ${styles.muiIcon}`} />
           }
         />
 
@@ -62,7 +63,7 @@ export function SkillsSection() {
         <SkillCard
           skill="Node"
           icon={
-            <SiNodeDotJs className={`${styles.skillIcon} ${styles.nodeIcon}`} />
+            <SiNodedotjs className={`${styles.skillIcon} ${styles.nodeIcon}`} />
           }
         />
 
@@ -76,7 +77,7 @@ export function SkillsSection() {
         <SkillCard
           skill="Express"
           icon={
-            <p className={`${styles.expSkillIcon} ${styles.expIcon}`}>ex</p>
+            <SiExpress className={`${styles.skillIcon} ${styles.mongoIcon}`} />
           }
         />
       </div>
