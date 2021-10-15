@@ -1,29 +1,26 @@
 import { Button } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles"
 import styles from "./Styles/HeroSection.module.css"
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
-import GitHubIcon from "@material-ui/icons/GitHub"
+
 import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
-import { CgSoftwareDownload } from "react-icons/cg"
+
 import { RiDownloadLine } from "react-icons/ri"
 const useStyles = makeStyles({
   contactBtn: {
     color: "white",
-    // backgroundColor: "rgb(64,112,244)",
+
     backgroundColor: "rgb(8, 111, 143)",
     width: "130px",
     height: "45px",
-    // fontSize: "17px",
-    // fontWeight: "500",
+
     "&:hover": {
-      // backgroundColor: "#83a4ff",
       backgroundColor: "rgb(21, 138, 173)",
     },
   },
   linkedInIcon: {
     fontSize: "40px",
-    // color: "rgb(10,102,194)",
+
     color: "rgb(8, 111, 143)",
     "&:hover": {
       backgroundColor: "rgb(17, 155, 197)",
@@ -32,7 +29,7 @@ const useStyles = makeStyles({
   gitIcon: {
     fontSize: "35px",
     color: "rgb(42, 42, 42)",
-    // color: " rgb(0, 49, 64)",
+
     "&:hover": {
       backgroundColor: "rgb(100, 100, 100)",
     },
@@ -71,6 +68,7 @@ export function HeroSection() {
       </div>
       <div className={styles.socialCont}>
         <a
+          rel="noreferrer"
           href="https://www.linkedin.com/in/kumar-saurav-90a898179/"
           className={classes.a}
           target="_blank"
@@ -79,6 +77,7 @@ export function HeroSection() {
           <AiFillLinkedin className={styles.linkedInIcon} />
         </a>
         <a
+          rel="noreferrer"
           href="https://github.com/ks-1007"
           className={classes.a}
           target="_blank"

@@ -10,6 +10,7 @@ export function Navbar() {
         spy={true}
         hashSpy={true}
         activeClass={styles.active}
+        onSetActive={styles.active}
       >
         <div className={styles.navlogo}>
           <img src="/logo-2.png" alt="" className={styles.logoimg} />
