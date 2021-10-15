@@ -108,6 +108,9 @@
     height: 140vh;
     padding-bottom: 5vh;
   } */
+  .rootCont {
+    width: 90%;
+  }
   .skillsContFront {
     grid-template-columns: repeat(3, 33.3%);
     /* height: 120vh; */
