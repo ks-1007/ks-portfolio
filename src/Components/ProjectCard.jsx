@@ -23,7 +23,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
           <a href={link} target="_blank">
             <div className={styles.linkDiv}>
               <LinkIcon />
-              <p>Site</p>
+              <p>Demo</p>
             </div>
           </a>
         </div>
