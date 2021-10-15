@@ -12,11 +12,11 @@ import { SiMongodb } from "react-icons/si"
 const projects = [
   {
     name: "LinkedIn.com clone",
-    img: "/linkedin-pic.png",
+    img: "/linkedin-pic1.png",
     link: "https://linkedin-clone-sigma.vercel.app/",
     git: "https://github.com/ks-1007/LinkedIn-project",
     about:
-      "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development, and allows job seekers to post their CVs and employers to post jobs.",
+      "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development.",
     stacks: [
       <SiReact className={styles.stackIcon} />,
       <SiNodedotjs className={styles.stackIcon} />,
@@ -62,7 +62,7 @@ const projects = [
     link: "https://project-sephora.vercel.app/",
     git: "https://github.com/ks-1007/Project-Sephora",
     about:
-      "Sephora is an e-commerce website which sells variety of personal care and beauty products.",
+      "Sephora is an e-commerce website which sells variety of personal care and beauty products including cosmetics, skincare, body, fragrance, nail color, etc.",
     stacks: [
       <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,
