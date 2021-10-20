@@ -27,6 +27,20 @@ const projects = [
     ],
   },
   {
+    name: "Glassdoor.com clone",
+    img: "/glassdoor-pic1.png",
+    link: "https://glassdoor-clone.netlify.app/",
+    git: "https://github.com/chandan1499/Project-glassdoor",
+    about:
+      "Glassdoor is a job searching website which also allows employees to post their salaries and company reviews anonymously.",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
+  {
     name: "Airbnb.com clone",
     img: "/Airbnb.png",
     link: "https://airbnb-clone-one-weld.vercel.app/",
@@ -42,20 +56,7 @@ const projects = [
       <SiCss3 className={styles.stackIcon} />,
     ],
   },
-  {
-    name: "Glassdoor.com clone",
-    img: "/glassdoor-pic1.png",
-    link: "https://glassdoor-clone.netlify.app/",
-    git: "https://github.com/chandan1499/Project-glassdoor",
-    about:
-      "Glassdoor is a job searching website which also allows employees to post their salaries and company reviews anonymously.",
-    stacks: [
-      <SiReact className={styles.stackIcon} />,
-      <SiJavascript className={styles.stackIcon} />,
-      <SiHtml5 className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
-    ],
-  },
+
   {
     name: "Sephora.com clone",
     img: "/sephora.png",
