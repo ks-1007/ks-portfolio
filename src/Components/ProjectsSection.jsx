@@ -56,6 +56,23 @@ const projects = [
       <SiCss3 className={styles.stackIcon} />,
     ],
   },
+  {
+    name: "Contio",
+    img: "/contio.png",
+    link: "https://contio.netlify.app/",
+    git: "https://github.com/chandan1499/contio",
+    about:
+      "Contio is an online portal where anyone can ask there doubts and anyone can become a mentor to help there peers using a built-in chat app.",
+
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiNodedotjs className={styles.stackIcon} />,
+      <SiExpress className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
 
   {
     name: "Sephora.com clone",
