@@ -14,9 +14,8 @@ import { SiPostman } from "react-icons/si"
 import { SiExpress } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
 import Fade from "react-reveal/Fade"
-const useStyles = makeStyles({})
+
 export function SkillsSection() {
-  const classes = useStyles()
   return (
     <div className={styles.rootCont} id="skills">
       <Fade bottom>

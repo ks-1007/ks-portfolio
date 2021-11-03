@@ -1,5 +1,5 @@
 import styles from "./Styles/ContactSection.module.css"
-import { SiGmail } from "react-icons/si"
+
 import { AiOutlineMail } from "react-icons/ai"
 import { AiOutlineGithub } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
@@ -19,10 +19,11 @@ export function ContactSection() {
           <a
             href="https://www.linkedin.com/in/kumar-saurav-90a898179/"
             target="_blank"
+            rel="noreferrer"
           >
             <AiFillLinkedin className={styles.linkedInIcon} />
           </a>
-          <a href="https://github.com/ks-1007" target="_blank">
+          <a href="https://github.com/ks-1007" rel="noreferrer" target="_blank">
             <AiOutlineGithub className={styles.gitIcon} />
           </a>
         </div>

@@ -1,9 +1,7 @@
-import { makeStyles } from "@material-ui/core"
 import styles from "./Styles/AboutSection.module.css"
 import Fade from "react-reveal/Fade"
-const useStyles = makeStyles({})
+
 export function AboutSection() {
-  const classes = useStyles()
   return (
     <div className={styles.rootCont} id="about">
       <Fade bottom>

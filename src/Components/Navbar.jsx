@@ -7,10 +7,9 @@ export function Navbar() {
         to="hero"
         smooth={true}
         duration={1000}
-        // spy={true}
-        // hashSpy={true}
-        // activeClass={styles.active}
-        // onSetActive={styles.active}
+        spy={true}
+        hashSpy={true}
+        activeClass={styles.active}
       >
         <div className={styles.navlogo}>
           <img src="/logo-2.png" alt="" className={styles.logoimg} />
@@ -21,9 +20,9 @@ export function Navbar() {
           to="about"
           smooth={true}
           duration={1000}
-          // activeClass={styles.active}
-          // spy={true}
-          // hashSpy={true}
+          activeClass={styles.active}
+          spy={true}
+          hashSpy={true}
         >
           <div className={styles.nav}>about</div>
         </Link>
@@ -31,9 +30,9 @@ export function Navbar() {
           to="skills"
           smooth={true}
           duration={1000}
-          // activeClass={styles.active}
-          // spy={true}
-          // hashSpy={true}
+          activeClass={styles.active}
+          spy={true}
+          hashSpy={true}
         >
           <div className={styles.nav}>skills</div>
         </Link>
@@ -41,9 +40,9 @@ export function Navbar() {
           to="projects"
           smooth={true}
           duration={1000}
-          // activeClass={styles.active}
-          // spy={true}
-          // hashSpy={true}
+          activeClass={styles.active}
+          spy={true}
+          hashSpy={true}
         >
           <div className={styles.nav}>projects</div>
         </Link>
@@ -51,9 +50,9 @@ export function Navbar() {
           to="contact"
           smooth={true}
           duration={1000}
-          // activeClass={styles.active}
-          // spy={true}
-          // hashSpy={true}
+          activeClass={styles.active}
+          spy={true}
+          hashSpy={true}
         >
           <div className={styles.nav}>contact</div>
         </Link>

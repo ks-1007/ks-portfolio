@@ -1,6 +1,6 @@
 import styles from "./Styles/BlogSection.module.css"
 import LinkIcon from "@material-ui/icons/Link"
-import GitHubIcon from "@material-ui/icons/GitHub"
+
 export function BlogCard({ name, img, link, about }) {
   return (
     <>
@@ -11,7 +11,7 @@ export function BlogCard({ name, img, link, about }) {
         </p>
 
         <div className={styles.linkCont}>
-          <a href={link} target="_blank">
+          <a href={link} rel="noreferrer" target="_blank">
             <div className={styles.linkDiv}>
               <LinkIcon />
               <p>See Blog</p>

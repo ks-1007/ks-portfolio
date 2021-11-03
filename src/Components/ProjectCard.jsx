@@ -16,7 +16,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
           </div>
 
           <div className={styles.linkCont}>
-            <a href={git} target="_blank">
+            <a href={git} rel="noreferrer" target="_blank">
               <div className={styles.linkDiv}>
                 <GitHubIcon />
                 <p>Code</p>
@@ -26,7 +26,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
               {stacks.map((stack) => stack)}
             </div>
 
-            <a href={link} target="_blank">
+            <a href={link} rel="noreferrer" target="_blank">
               <div className={styles.linkDiv}>
                 <LinkIcon />
                 <p>Demo</p>

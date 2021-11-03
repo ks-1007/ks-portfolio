@@ -7,6 +7,7 @@ import { AiFillLinkedin } from "react-icons/ai"
 
 import { RiDownloadLine } from "react-icons/ri"
 import Fade from "react-reveal/Fade"
+
 const useStyles = makeStyles({
   contactBtn: {
     color: "white",
@@ -82,7 +83,6 @@ export function HeroSection() {
             className={classes.a}
             target="_blank"
           >
-            {/* <LinkedInIcon className={classes.linkedInIcon} /> */}
             <AiFillLinkedin className={styles.linkedInIcon} />
           </a>
           <a
@@ -91,7 +91,6 @@ export function HeroSection() {
             className={classes.a}
             target="_blank"
           >
-            {/* <GitHubIcon className={classes.gitIcon} /> */}
             <AiOutlineGithub className={styles.gitIcon} />
           </a>
         </div>

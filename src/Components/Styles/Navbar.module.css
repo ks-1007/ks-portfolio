@@ -81,4 +81,10 @@ a {
   .navlogo:hover {
     border-bottom: none;
   }
+  .active > .nav {
+    border-bottom: none;
+  }
+  .active > .navlogo {
+    border-bottom: none;
+  }
 }

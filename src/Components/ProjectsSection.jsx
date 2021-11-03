@@ -91,16 +91,14 @@ const projects = [
 export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont} id="projects">
-      <Fade>
+      <Fade bottom>
         <p>Projects</p>
-        <div className={styles.projectGrid}>
-          {projects.map((project) => (
-            <Fade bottom>
-              <ProjectCard {...project} />
-            </Fade>
-          ))}
-        </div>
       </Fade>
+      <div className={styles.projectGrid}>
+        {projects.map((project) => (
+          <ProjectCard {...project} />
+        ))}
+      </div>
     </div>
   )
 }
