@@ -16,8 +16,7 @@ const projects = [
     link: "https://linkedin-clone-sigma.vercel.app/",
     git: "https://github.com/ks-1007/LinkedIn-project",
     about:
-      // "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development.",
-      "LinkedIn is a leading professional networking and employment-oriented online platform. Implemented features like connect with others, create posts, like, comment, showing notifications among other features",
+      "LinkedIn is a leading professional networking and employment oriented online platform. Implemented features to connect with others, create posts, like, comment, show notifications and more",
     stacks: [
       <SiReact className={styles.stackIcon} />,
       <SiNodedotjs className={styles.stackIcon} />,
@@ -33,8 +32,7 @@ const projects = [
     link: "https://glassdoor-clone.netlify.app/",
     git: "https://github.com/chandan1499/Project-glassdoor",
     about:
-      // "Glassdoor is a job searching website which also allows employees to post their salaries and company reviews anonymously.",
-      "Glassdoor is a leading job searching and company reviewing platform. Implemented features like posting jobs, searching and applying for jobs, comparing companies rating, sign-in/sign-up, etc",
+      "Glassdoor is a leading job searching and company reviewing platform. Implemented features to post jobs, search and apply for jobs, compare companies based on rating and sign-in/sign-up",
     stacks: [
       <SiReact className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
@@ -48,8 +46,7 @@ const projects = [
     link: "https://airbnb-clone-one-weld.vercel.app/",
     git: "https://github.com/ks-1007/Airbnb-clone",
     about:
-      // "Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale.",
-      "Airbnb is a hotel booking online platform. Implemented features to searching for hotels based on ratings, reviews and price range and then booking it after selecting check-in & check-out dates ",
+      "Airbnb is a hotel booking online platform. Implemented features to search for hotels based on ratings, reviews and price range and then booking it after selecting check-in & check-out dates",
 
     stacks: [
       <SiReact className={styles.stackIcon} />,
