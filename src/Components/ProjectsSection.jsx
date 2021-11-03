@@ -16,7 +16,8 @@ const projects = [
     link: "https://linkedin-clone-sigma.vercel.app/",
     git: "https://github.com/ks-1007/LinkedIn-project",
     about:
-      "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development.",
+      // "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development.",
+      "LinkedIn is a leading professional networking and employment-oriented online platform. Implented features to connect with others, creating a post, liking it, commenting on it",
     stacks: [
       <SiReact className={styles.stackIcon} />,
       <SiNodedotjs className={styles.stackIcon} />,
