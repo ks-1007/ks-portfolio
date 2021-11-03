@@ -8,7 +8,7 @@ import { SiRedux } from "react-icons/si"
 import { SiNodedotjs } from "react-icons/si"
 import { SiExpress } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
-
+import Fade from "react-reveal/Fade"
 const projects = [
   {
     name: "LinkedIn.com clone",
@@ -91,12 +91,16 @@ const projects = [
 export function ProjectsSection() {
   return (
     <div className={styles.projectsSectionCont} id="projects">
-      <p>Projects</p>
-      <div className={styles.projectGrid}>
-        {projects.map((project) => (
-          <ProjectCard {...project} />
-        ))}
-      </div>
+      <Fade>
+        <p>Projects</p>
+        <div className={styles.projectGrid}>
+          {projects.map((project) => (
+            <Fade bottom>
+              <ProjectCard {...project} />
+            </Fade>
+          ))}
+        </div>
+      </Fade>
     </div>
   )
 }
