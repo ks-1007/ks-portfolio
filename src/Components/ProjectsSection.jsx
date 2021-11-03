@@ -74,19 +74,19 @@ const projects = [
     ],
   },
 
-  // {
-  //   name: "Sephora.com clone",
-  //   img: "/sephora.png",
-  //   link: "https://project-sephora.vercel.app/",
-  //   git: "https://github.com/ks-1007/Project-Sephora",
-  //   about:
-  //     "Sephora is an e-commerce website which sells variety of personal care and beauty products including cosmetics, skincare, body, fragrance, nail color, etc.",
-  //   stacks: [
-  //     <SiJavascript className={styles.stackIcon} />,
-  //     <SiHtml5 className={styles.stackIcon} />,
-  //     <SiCss3 className={styles.stackIcon} />,
-  //   ],
-  // },
+  {
+    name: "Sephora.com clone",
+    img: "/sephora.png",
+    link: "https://project-sephora.vercel.app/",
+    git: "https://github.com/ks-1007/Project-Sephora",
+    about:
+      "Sephora is an American e-commerce website which sells beauty products. Features are implemented to select products from carousel and add products to cart and do CRUD operations",
+    stacks: [
+      <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+    ],
+  },
 ]
 export function ProjectsSection() {
   return (

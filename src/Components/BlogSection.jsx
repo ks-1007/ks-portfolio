@@ -15,15 +15,13 @@ const projects = [
     name: "Building LinkedIn.com clone",
     img: "/linkedin-pic1.png",
     link: "https://hashnode.com/post/building-linkedin-clone-ckubelcmk07kb0gs1g7negho9",
-    about:
-      "In this blog I talked about our exprience of building the clone of LinkedIn.com and also described the flow of website.",
+    about: "This blog is about my exprience of building clone of LinkedIn",
   },
   {
     name: "Building Airbnb.com clone",
     img: "/Airbnb.png",
     link: "https://airbnbclone.hashnode.dev/building-airbnb-clone",
-    about:
-      "In this blog I talked about our exprience of building the clone of Airbnb.com and also described the flow of website.",
+    about: "This blog is about my exprience of building clone of Airbnb",
   },
 ]
 export function BlogSection() {
