@@ -17,7 +17,7 @@ const projects = [
     git: "https://github.com/ks-1007/LinkedIn-project",
     about:
       // "LinkedIn is a business and employment-oriented online service. The platform is primarily used for professional networking and career development.",
-      "LinkedIn is a leading professional networking and employment-oriented online platform. Implemented features like connect with others, create posts, like, comment, notifications among other features",
+      "LinkedIn is a leading professional networking and employment-oriented online platform. Implemented features like connect with others, create posts, like, comment, showing notifications among other features",
     stacks: [
       <SiReact className={styles.stackIcon} />,
       <SiNodedotjs className={styles.stackIcon} />,
@@ -33,8 +33,8 @@ const projects = [
     link: "https://glassdoor-clone.netlify.app/",
     git: "https://github.com/chandan1499/Project-glassdoor",
     about:
-      "Glassdoor is a job searching website which also allows employees to post their salaries and company reviews anonymously.",
-    // "Glassdoor is a leading job searching and company reviewing platform. Implemented features like ",
+      // "Glassdoor is a job searching website which also allows employees to post their salaries and company reviews anonymously.",
+      "Glassdoor is a leading job searching and company reviewing platform. Implemented features like posting jobs, searching and applying for jobs, comparing companies rating, sign-in/sign-up, etc",
     stacks: [
       <SiReact className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
@@ -48,7 +48,8 @@ const projects = [
     link: "https://airbnb-clone-one-weld.vercel.app/",
     git: "https://github.com/ks-1007/Airbnb-clone",
     about:
-      "Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale.",
+      // "Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in that locale.",
+      "Airbnb is a hotel booking online platform. Implemented features to searching for hotels based on ratings, reviews and price range and then booking it after selecting check-in & check-out dates ",
 
     stacks: [
       <SiReact className={styles.stackIcon} />,
@@ -64,7 +65,7 @@ const projects = [
     link: "https://contio.netlify.app/",
     git: "https://github.com/chandan1499/contio",
     about:
-      "Contio is an online portal where anyone can ask there doubts and anyone can become a mentor to help there peers using a built-in chat app.",
+      "Contio is an online portal where anyone can ask there doubts and anyone can become a mentor to help there peers using a built-in chat app",
 
     stacks: [
       <SiReact className={styles.stackIcon} />,
@@ -76,19 +77,19 @@ const projects = [
     ],
   },
 
-  {
-    name: "Sephora.com clone",
-    img: "/sephora.png",
-    link: "https://project-sephora.vercel.app/",
-    git: "https://github.com/ks-1007/Project-Sephora",
-    about:
-      "Sephora is an e-commerce website which sells variety of personal care and beauty products including cosmetics, skincare, body, fragrance, nail color, etc.",
-    stacks: [
-      <SiJavascript className={styles.stackIcon} />,
-      <SiHtml5 className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
-    ],
-  },
+  // {
+  //   name: "Sephora.com clone",
+  //   img: "/sephora.png",
+  //   link: "https://project-sephora.vercel.app/",
+  //   git: "https://github.com/ks-1007/Project-Sephora",
+  //   about:
+  //     "Sephora is an e-commerce website which sells variety of personal care and beauty products including cosmetics, skincare, body, fragrance, nail color, etc.",
+  //   stacks: [
+  //     <SiJavascript className={styles.stackIcon} />,
+  //     <SiHtml5 className={styles.stackIcon} />,
+  //     <SiCss3 className={styles.stackIcon} />,
+  //   ],
+  // },
 ]
 export function ProjectsSection() {
   return (
