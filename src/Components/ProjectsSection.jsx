@@ -96,7 +96,9 @@ export function ProjectsSection() {
       </Fade>
       <div className={styles.projectGrid}>
         {projects.map((project) => (
-          <ProjectCard {...project} />
+          <Fade bottom>
+            <ProjectCard {...project} />
+          </Fade>
         ))}
       </div>
     </div>
