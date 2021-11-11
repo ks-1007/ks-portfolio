@@ -48,7 +48,7 @@ export function HeroSection() {
         <div className={styles.nameCont}>
           <p>Hi,</p>
           <p>
-            I'am <span>Saurav</span>{" "}
+            I am <span>Kumar Saurav</span>{" "}
           </p>
           <p>Web Developer</p>
           <a
