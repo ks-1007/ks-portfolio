@@ -62,7 +62,7 @@ const projects = [
     link: "https://contio.netlify.app/",
     git: "https://github.com/chandan1499/contio",
     about:
-      "Contio is an online portal where anyone can ask there doubts and anyone can become a mentor to help there peers using a built-in chat app",
+      "Contio is an online portal where anyone can ask there doubts and anyone can become a mentor to help their peers using a built-in chat app",
 
     stacks: [
       <SiReact className={styles.stackIcon} />,
