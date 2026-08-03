@@ -1,12 +1,12 @@
-import { Button } from "@material-ui/core"
-import { makeStyles } from "@material-ui/styles"
-import styles from "./Styles/HeroSection.module.css"
+import { Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/styles";
+import styles from "./Styles/HeroSection.module.css";
 
-import { AiOutlineGithub } from "react-icons/ai"
-import { AiFillLinkedin } from "react-icons/ai"
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
-import { RiDownloadLine } from "react-icons/ri"
-import Fade from "react-reveal/Fade"
+import { RiDownloadLine } from "react-icons/ri";
+import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles({
   contactBtn: {
@@ -39,9 +39,9 @@ const useStyles = makeStyles({
   a: {
     textDecoration: "none",
   },
-})
+});
 export function HeroSection() {
-  const classes = useStyles()
+  const classes = useStyles();
   return (
     <div className={styles.rootCont} id="hero">
       <Fade>
@@ -52,7 +52,7 @@ export function HeroSection() {
           </p>
           <p>Web Developer</p>
           <a
-            href="https://drive.google.com/file/d/1jqb2_ids8NCB0tLkKfPJuWeCfYhcmkDF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iM3PgkzQhO-eD34sPMObhVFMkQTVxdSU/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -96,5 +96,5 @@ export function HeroSection() {
         </div>
       </Fade>
     </div>
-  )
+  );
 }

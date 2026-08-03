@@ -1,9 +1,9 @@
-import styles from "./Styles/ContactSection.module.css"
+import styles from "./Styles/ContactSection.module.css";
 
-import { AiOutlineMail } from "react-icons/ai"
-import { AiOutlineGithub } from "react-icons/ai"
-import { AiFillLinkedin } from "react-icons/ai"
-import Fade from "react-reveal/Fade"
+import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import Fade from "react-reveal/Fade";
 export function ContactSection() {
   return (
     <div className={styles.rootCont} id="contact">
@@ -27,9 +27,9 @@ export function ContactSection() {
             <AiOutlineGithub className={styles.gitIcon} />
           </a>
         </div>
-        <p className={styles.text}>Phone: 7338599587</p>{" "}
+        <p className={styles.text}>Phone: +91 7338599587</p>{" "}
         <p className={styles.text}>Email: krsaurav1007@gmail.com</p>
       </Fade>
     </div>
-  )
+  );
 }

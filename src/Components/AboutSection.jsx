@@ -1,5 +1,5 @@
-import styles from "./Styles/AboutSection.module.css"
-import Fade from "react-reveal/Fade"
+import styles from "./Styles/AboutSection.module.css";
+import Fade from "react-reveal/Fade";
 
 export function AboutSection() {
   return (
@@ -19,13 +19,17 @@ export function AboutSection() {
               I am <span>Kumar Saurav</span>{" "}
             </h2>
             <p>
-              A web developer with excellent problem solving skills and ability
-              to perform well in a team. Proficient in front-end, back-end and
-              data structures and algorithms.
+              Senior Frontend Engineer with 5 years of experience building
+              large-scale web applications at PhonePe and OLA. Specialized in
+              React, Next.js, TypeScript, and Redux, with expertise in frontend
+              architecture, performance optimization, and developer experience.
+              Led initiatives across products serving millions of users,
+              including UI platform migrations, reusable component systems,
+              observability tooling, and automated testing infrastructure.
             </p>
           </div>
         </div>
       </Fade>
     </div>
-  )
+  );
 }
