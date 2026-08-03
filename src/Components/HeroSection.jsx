@@ -46,8 +46,8 @@ export function HeroSection() {
       <div className={styles.photoCont}>
         <Fade right>
           <img
-            src="/profile-pic-nobg.png"
-            alt="Kumar Saurav"
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
+            alt="Web Development"
             className={styles.heroImg}
           />
         </Fade>
