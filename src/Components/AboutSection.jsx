@@ -5,20 +5,20 @@ export function AboutSection() {
   return (
     <div className={styles.rootCont} id="about">
       <Fade bottom>
-        <p>About</p>
+        <p className={styles.sectionTitle}>About</p>
         <div className={styles.mainCont}>
           <div className={styles.profilePicCont}>
             <img
               src="/profile-pic-nobg.png"
-              alt=""
+              alt="Profile"
               className={styles.profilePic}
             />
           </div>
-          <div>
+          <div className={styles.textCont}>
             <h2>
-              I am <span>Kumar Saurav</span>{" "}
+              I am <span>Kumar Saurav</span>
             </h2>
-            <p>
+            <p className={styles.description}>
               Senior Frontend Engineer with 5 years of experience building
               large-scale web applications at PhonePe and OLA. Specialized in
               React, Next.js, TypeScript, and Redux, with expertise in frontend

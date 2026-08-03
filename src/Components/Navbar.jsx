@@ -12,7 +12,7 @@ export function Navbar() {
         activeClass={styles.active}
       >
         <div className={styles.navlogo}>
-          <img src="/logo-2.png" alt="" className={styles.logoimg} />
+          <img src="/logo-2.png" alt="Logo" className={styles.logoimg} />
         </div>
       </Link>
       <div className={styles.navsCont}>
@@ -24,7 +24,7 @@ export function Navbar() {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>about</div>
+          <div className={styles.nav}>About</div>
         </Link>
         <Link
           to="skills"
@@ -34,7 +34,7 @@ export function Navbar() {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>skills</div>
+          <div className={styles.nav}>Skills</div>
         </Link>
         <Link
           to="experience"
@@ -44,7 +44,7 @@ export function Navbar() {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>experience</div>
+          <div className={styles.nav}>Experience</div>
         </Link>
         <Link
           to="contact"
@@ -54,7 +54,7 @@ export function Navbar() {
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>contact</div>
+          <div className={styles.nav}>Contact</div>
         </Link>
       </div>
     </div>

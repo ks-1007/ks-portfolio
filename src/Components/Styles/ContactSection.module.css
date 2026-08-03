@@ -1,57 +1,56 @@
 .rootCont {
+  width: 100%;
+  padding: 80px 10%;
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
   text-align: center;
-  /* height: 45vh; */
-  background-color: black;
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding-bottom: 10px;
 }
-a {
-  text-decoration: none;
-}
+
 .contactHeading {
-  font-size: 40px;
-  font-weight: 400;
-  margin: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 24px;
 }
+
+.divider {
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-cyan);
+  border-radius: 2px;
+  margin-bottom: 40px;
+  border: none;
+}
+
 .text {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin: 8px 0;
 }
+
 .iconsCont {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+  gap: 32px;
+  margin: 40px 0;
 }
-.linkedInIcon {
+
+.socialIcon {
   font-size: 40px;
-  margin: 0 10px;
-  /* color: rgb(10, 102, 194); */
+  color: var(--text-muted);
+  transition: all 0.3s ease;
   cursor: pointer;
-  color: white !important;
 }
-.linkedInIcon:hover {
-  color: rgb(17, 121, 224) !important;
+
+.socialIcon:hover {
+  color: var(--accent-cyan);
+  transform: translateY(-5px);
 }
-.gitIcon {
-  font-size: 40px;
-  margin: 0 10px;
-  cursor: pointer;
-  color: white !important;
-}
-.gitIcon:hover {
-  color: rgb(80, 80, 80) !important;
-}
-.emailicon {
-  font-size: 40px;
-  margin: 0 10px;
-  cursor: pointer;
-  color: white !important;
-}
-.emailicon:hover {
-  color: rgb(80, 80, 80) !important;
+
+@media only screen and (max-width: 768px) {
+  .rootCont {
+    padding: 60px 5%;
+  }
 }

@@ -24,74 +24,74 @@ export function SkillsSection() {
   return (
     <div className={styles.rootCont} id="skills">
       <Fade bottom>
-        <p>Skills</p>
-        <p>Languages & Front-end</p>
+        <p className={styles.sectionTitle}>Skills</p>
+        <p className={styles.categoryTitle}>Languages & Front-end</p>
         <div className={styles.skillsContFront}>
           <SkillCard
             skill="JavaScript"
-            icon={<SiJavascript className={`${styles.skillIcon} ${styles.jsIcon}`} />}
+            icon={<SiJavascript className={styles.skillIcon} />}
           />
           <SkillCard
             skill="TypeScript"
-            icon={<SiTypescript className={`${styles.skillIcon} ${styles.jsIcon}`} />}
+            icon={<SiTypescript className={styles.skillIcon} />}
           />
           <SkillCard
             skill="React"
-            icon={<GrReactjs className={`${styles.skillIcon} ${styles.reactIcon}`} />}
+            icon={<GrReactjs className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Next.js"
-            icon={<SiNextdotjs className={`${styles.skillIcon}`} />}
+            icon={<SiNextdotjs className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Redux"
-            icon={<SiRedux className={`${styles.skillIcon} ${styles.reduxIcon}`} />}
+            icon={<SiRedux className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Tailwind CSS"
-            icon={<SiTailwindcss className={`${styles.skillIcon} ${styles.cssIcon}`} />}
+            icon={<SiTailwindcss className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Material UI"
-            icon={<SiMaterialui className={`${styles.skillIcon} ${styles.muiIcon}`} />}
+            icon={<SiMaterialui className={styles.skillIcon} />}
           />
           <SkillCard
             skill="HTML5"
-            icon={<SiHtml5 className={`${styles.skillIcon} ${styles.htmlIcon}`} />}
+            icon={<SiHtml5 className={styles.skillIcon} />}
           />
           <SkillCard
             skill="CSS3"
-            icon={<SiCss3 className={`${styles.skillIcon} ${styles.cssIcon}`} />}
+            icon={<SiCss3 className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Sass"
-            icon={<SiSass className={`${styles.skillIcon} ${styles.cssIcon}`} />}
+            icon={<SiSass className={styles.skillIcon} />}
           />
         </div>
-        <p>Back-end & Infra</p>
+        <p className={styles.categoryTitle}>Back-end & Infra</p>
         <div className={styles.skillsContBack}>
           <SkillCard
             skill="Node.js"
-            icon={<SiNodedotjs className={`${styles.skillIcon} ${styles.nodeIcon}`} />}
+            icon={<SiNodedotjs className={styles.skillIcon} />}
           />
         </div>
-        <p>Testing & Tools</p>
+        <p className={styles.categoryTitle}>Testing & Tools</p>
         <div className={styles.toolsDiv}>
           <SkillCard
             skill="Jest"
-            icon={<SiJest className={`${styles.skillIcon}`} />}
+            icon={<SiJest className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Cypress"
-            icon={<SiCypress className={`${styles.skillIcon}`} />}
+            icon={<SiCypress className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Git"
-            icon={<FaGitAlt className={`${styles.skillIcon} ${styles.gitIcon}`} />}
+            icon={<FaGitAlt className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Npm"
-            icon={<SiNpm className={`${styles.skillIcon} ${styles.gitIcon}`} />}
+            icon={<SiNpm className={styles.skillIcon} />}
           />
         </div>
       </Fade>
