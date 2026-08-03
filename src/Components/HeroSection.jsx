@@ -13,7 +13,7 @@ export function HeroSection() {
             I am <span>Kumar Saurav</span>
           </h1>
           <h2 className={styles.title}>Senior Frontend Engineer</h2>
-          
+
           <div className={styles.actionsCont}>
             <a
               href="https://drive.google.com/file/d/1iM3PgkzQhO-eD34sPMObhVFMkQTVxdSU/view?usp=sharing"
@@ -24,7 +24,7 @@ export function HeroSection() {
                 <RiDownloadLine /> Resume
               </button>
             </a>
-            
+
             <a
               rel="noreferrer"
               href="https://www.linkedin.com/in/kumar-saurav-90a898179/"
