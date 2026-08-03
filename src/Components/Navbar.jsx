@@ -37,14 +37,14 @@ export function Navbar() {
           <div className={styles.nav}>skills</div>
         </Link>
         <Link
-          to="projects"
+          to="experience"
           smooth={true}
           duration={1000}
           activeClass={styles.active}
           spy={true}
           hashSpy={true}
         >
-          <div className={styles.nav}>projects</div>
+          <div className={styles.nav}>experience</div>
         </Link>
         <Link
           to="contact"
