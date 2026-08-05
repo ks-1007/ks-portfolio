@@ -1,0 +1,55 @@
+KUMAR SAURAVBengaluru, India |  +91 7338599587 | krsaurav1007@gmail.com
+LinkedIn| GitHub| Portfolio
+PROFESSIONAL SUMMARY
+Results-driven Senior Frontend Engineer with 5 years of experience building high-throughput, enterprise web applications
+serving up to 30M+ active users at PhonePe and OLA. Expert in React, Next.js, TypeScript, Redux Toolkit, and modern
+Frontend Architecture. Proven track record of optimizing Core Web Vitals, architecting design systems, integrating AI-assisted
+workflows, and instituting automated CI/CD testing infrastructure to maximize developer velocity and system reliability. 
+TECHNICAL SKILLS
+Languages & Core: JavaScript (ES6+), TypeScript, HTML5, CSS3, Web Accessibility (WCAG)
+Frontend Frameworks & State:React.js, Next.js, Redux Toolkit, Ant Design (AntD), Tailwind CSS, Micro-frontends, Core
+Web Vitals
+Backend & Infrastructure:Node.js, RESTful APIs, WebSockets, Webpack, Vite, CI/CD (GitLab)
+Testing & Telemetry: Jest, Playwright, Cypress, New Relic, Sentry
+Architecture & Workflows:Design Systems, Tree-Structured UI, State Normalization, Performance Optimization, AI
+Workflows (GitHub Copilot)
+PROFESSIONAL EXPERIENCE
+Software Engineer Mar 2024 – Present
+PhonePe Bengaluru, India
+Design System Migration: Architected and led the migration of core merchant dashboard (serving 5M+ active merchants)
+from Material-UI to an in-house UI library based on Ant Design (AntD), cutting component setup time by 25% and
+standardizing design tokens across teams.
+Frontend  Architecture  &  Rendering: Engineered  Service-Mesh,  an  interactive  dependency  visualization  platform
+mapping 100+ microservices; implemented tree-structured UI rendering to cut Mean Time to Resolution (MTTR) by 30%
+for 200+ engineers.
+Performance  Engineering: Optimized  Core  Web  Vitals  &  runtime  performance  across  12+  high-traffic  modules  by
+modularizing global Redux state slices and using New Relic telemetry to eliminate redundant layout re-renders.
+Observability  &  Monitoring: Designed  an  enterprise  Alert  Management  Console  tracking  500+  threshold  metrics;
+integrated Sentry exception tracking to orchestrate real-time error notifications across 50+ channels with zero missed
+critical alerts.
+Developer Velocity & CI/CD: Integrated AI-assisted development workflows (GitHub Copilot/LLMs) into feature delivery
+while establishing CI/CD quality gates with 1,200+ automated Jest/Playwright tests to accelerate sprint velocity.
+Software Development Engineer Dec 2021 – Feb 2024
+OLA Bengaluru, India
+Product Overhaul & CSAT: Overhauled UI/UX architecture of core Driver Onboarding Platform across 100+ cities using
+React and modular view containers, slashing onboarding cycle time by 20% and driving a 15% increase in CSAT.
+Real-time  Telemetry: Scaled  Next.js  EV  Fleet  Command  Center  monitoring  50K+  active  vehicles,  implementing
+WebSockets for real-time telemetry streaming and rendering interactive geospatial analytical panels.
+Infrastructure Cost Optimization: Spearheaded platform migration from Google Maps API to proprietary Ola Maps SDK
+across consumer web applications (30M+ active users), directly cutting mapping infrastructure costs by 25%.
+Geospatial Engineering: Developed multi-layered Time-Geo-Fence module handling 2M+ daily location pings with sub-
+second polygon map primitive overlays and dynamic location-based access controls.
+EDUCATION
+Bachelor of Engineering (B.E.) in Mechanical Engineering Aug 2016 – Oct 2020
+The National Institute of Engineering Mysuru, India
+Certification in Full Stack Web Development Mar 2021 – Nov 2021
+Masai School Online
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 

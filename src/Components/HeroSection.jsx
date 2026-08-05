@@ -16,7 +16,7 @@ export function HeroSection() {
 
           <div className={styles.actionsCont}>
             <a
-              href="https://drive.google.com/file/d/1iM3PgkzQhO-eD34sPMObhVFMkQTVxdSU/view?usp=sharing"
+              href="/Kumar_Saurav_UI_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

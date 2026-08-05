@@ -1,11 +1,10 @@
-
-import { SkillCard } from "./SkillCard"
-import styles from "./Styles/SkillsSection.module.css"
-import { GrReactjs } from "react-icons/gr"
+import { SkillCard } from "./SkillCard";
+import styles from "./Styles/SkillsSection.module.css";
+import { GrReactjs } from "react-icons/gr";
 import {
   SiRedux,
   SiJavascript,
-  SiMaterialui,
+  SiAntdesign,
   SiHtml5,
   SiCss3,
   SiNodedotjs,
@@ -13,19 +12,23 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiTailwindcss,
-  SiSass,
+  SiVite,
+  SiWebpack,
   SiJest,
-  SiCypress
-} from "react-icons/si"
-import { FaGitAlt } from "react-icons/fa"
-import Fade from "react-reveal/Fade"
+  SiPlaywright,
+  SiCypress,
+  SiNewrelic,
+  SiSentry,
+} from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import Fade from "react-reveal/Fade";
 
 export function SkillsSection() {
   return (
     <div className={styles.rootCont} id="skills">
       <Fade bottom>
         <p className={styles.sectionTitle}>Skills</p>
-        <p className={styles.categoryTitle}>Languages & Front-end</p>
+        <p className={styles.categoryTitle}>Languages & Core</p>
         <div className={styles.skillsContFront}>
           <SkillCard
             skill="JavaScript"
@@ -36,6 +39,17 @@ export function SkillsSection() {
             icon={<SiTypescript className={styles.skillIcon} />}
           />
           <SkillCard
+            skill="HTML5"
+            icon={<SiHtml5 className={styles.skillIcon} />}
+          />
+          <SkillCard
+            skill="CSS3"
+            icon={<SiCss3 className={styles.skillIcon} />}
+          />
+        </div>
+        <p className={styles.categoryTitle}>Frontend Frameworks & State</p>
+        <div className={styles.skillsContFront}>
+          <SkillCard
             skill="React"
             icon={<GrReactjs className={styles.skillIcon} />}
           />
@@ -44,28 +58,16 @@ export function SkillsSection() {
             icon={<SiNextdotjs className={styles.skillIcon} />}
           />
           <SkillCard
-            skill="Redux"
+            skill="Redux Toolkit"
             icon={<SiRedux className={styles.skillIcon} />}
+          />
+          <SkillCard
+            skill="Ant Design"
+            icon={<SiAntdesign className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Tailwind CSS"
             icon={<SiTailwindcss className={styles.skillIcon} />}
-          />
-          <SkillCard
-            skill="Material UI"
-            icon={<SiMaterialui className={styles.skillIcon} />}
-          />
-          <SkillCard
-            skill="HTML5"
-            icon={<SiHtml5 className={styles.skillIcon} />}
-          />
-          <SkillCard
-            skill="CSS3"
-            icon={<SiCss3 className={styles.skillIcon} />}
-          />
-          <SkillCard
-            skill="Sass"
-            icon={<SiSass className={styles.skillIcon} />}
           />
         </div>
         <p className={styles.categoryTitle}>Back-end & Infra</p>
@@ -74,16 +76,40 @@ export function SkillsSection() {
             skill="Node.js"
             icon={<SiNodedotjs className={styles.skillIcon} />}
           />
+          <SkillCard
+            skill="Vite"
+            icon={<SiVite className={styles.skillIcon} />}
+          />
+          <SkillCard
+            skill="Webpack"
+            icon={<SiWebpack className={styles.skillIcon} />}
+          />
+          <SkillCard
+            skill="GitLab CI/CD"
+            icon={<FaGitAlt className={styles.skillIcon} />}
+          />
         </div>
-        <p className={styles.categoryTitle}>Testing & Tools</p>
+        <p className={styles.categoryTitle}>Testing & Telemetry</p>
         <div className={styles.toolsDiv}>
           <SkillCard
             skill="Jest"
             icon={<SiJest className={styles.skillIcon} />}
           />
           <SkillCard
+            skill="Playwright"
+            icon={<SiPlaywright className={styles.skillIcon} />}
+          />
+          <SkillCard
             skill="Cypress"
             icon={<SiCypress className={styles.skillIcon} />}
+          />
+          <SkillCard
+            skill="New Relic"
+            icon={<SiNewrelic className={styles.skillIcon} />}
+          />
+          <SkillCard
+            skill="Sentry"
+            icon={<SiSentry className={styles.skillIcon} />}
           />
           <SkillCard
             skill="Git"
@@ -96,5 +122,5 @@ export function SkillsSection() {
         </div>
       </Fade>
     </div>
-  )
+  );
 }

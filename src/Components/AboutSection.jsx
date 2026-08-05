@@ -20,12 +20,13 @@ export function AboutSection() {
             </h2>
             <p className={styles.description}>
               Senior Frontend Engineer with 5 years of experience building
-              large-scale web applications at PhonePe and OLA. Specialized in
-              React, Next.js, TypeScript, and Redux, with expertise in frontend
-              architecture, performance optimization, and developer experience.
-              Led initiatives across products serving millions of users,
-              including UI platform migrations, reusable component systems,
-              observability tooling, and automated testing infrastructure.
+              high-throughput, enterprise web applications serving up to 30M+
+              active users at PhonePe and OLA. Expert in React, Next.js,
+              TypeScript, Redux Toolkit, and modern Frontend Architecture.
+              Proven track record of optimizing Core Web Vitals, architecting
+              design systems, integrating AI-assisted workflows, and instituting
+              automated CI/CD testing infrastructure to maximize developer
+              velocity and system reliability.
             </p>
           </div>
         </div>
