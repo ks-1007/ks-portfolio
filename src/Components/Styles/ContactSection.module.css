@@ -7,13 +7,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.fadeCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
 .contactHeading {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 24px;
+  margin: 0 0 20px 0;
+  text-align: center;
 }
 
 .divider {
@@ -21,7 +32,7 @@
   height: 4px;
   background-color: var(--accent-cyan);
   border-radius: 2px;
-  margin-bottom: 40px;
+  margin: 0 auto 36px auto;
   border: none;
 }
 
@@ -29,28 +40,64 @@
   font-size: 1.2rem;
   color: var(--text-secondary);
   margin: 8px 0;
+  text-align: center;
 }
 
 .iconsCont {
   display: flex;
-  gap: 32px;
-  margin: 40px 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 36px auto;
+  padding: 0;
+  width: 100%;
 }
 
-.socialIcon {
-  font-size: 40px;
-  color: var(--text-muted);
-  transition: all 0.3s ease;
+.iconLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
-.socialIcon:hover {
+.socialIcon {
+  font-size: 32px;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.iconLink:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-cyan);
+  background-color: rgba(56, 189, 248, 0.12);
+  box-shadow: 0 10px 24px rgba(56, 189, 248, 0.25);
+}
+
+.iconLink:hover .socialIcon {
   color: var(--accent-cyan);
-  transform: translateY(-5px);
 }
 
 @media only screen and (max-width: 768px) {
   .rootCont {
     padding: 60px 5%;
+  }
+  .iconsCont {
+    gap: 16px;
+  }
+  .iconLink {
+    width: 52px;
+    height: 52px;
+  }
+  .socialIcon {
+    font-size: 26px;
   }
 }

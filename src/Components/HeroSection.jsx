@@ -1,7 +1,7 @@
 import styles from "./Styles/HeroSection.module.css";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 import { RiDownloadLine } from "react-icons/ri";
-import Fade from "react-reveal/Fade";
+import Fade from "./Fade";
 
 export function HeroSection() {
   return (
@@ -55,3 +55,5 @@ export function HeroSection() {
     </div>
   );
 }
+
+export default HeroSection;

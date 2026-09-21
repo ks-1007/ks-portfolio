@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Kumar Saurav — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A high-performance personal portfolio website built with **Next.js (App Router)** and configured for **Static Site Generation (SSG)** (`output: 'export'`).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- **Static Site Generation (SSG)**: Pre-rendered HTML export (`output: 'export'`) in `/out` for instant load times, zero server latency, and optimal SEO.
+- **Modern Next.js App Router**: Built using Next.js App Router architecture (`src/app/`) with comprehensive OpenGraph and Twitter card metadata.
+- **Interactive UI & Animations**: Smooth section transitions, intersection-observer fade-in effects, and dynamic navigation scroll spy.
+- **Tech Stack & Telemetry Showcase**: Highlights enterprise experience at PhonePe and OLA, core skills, frameworks, and tooling.
+- **Fully Responsive & Accessible**: Optimized for mobile, tablet, and desktop viewports with dark-mode aesthetic.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, Static Export)
+- **Library**: [React](https://react.dev/)
+- **Styling**: Vanilla CSS Modules (Cyber Slate Theme)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) & Official SVGs
+- **Typography**: Google Fonts ([Inter](https://fonts.google.com/specimen/Inter))
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```text
+ks-portfolio/
+├── out/                    # Static exported production build (generated on build)
+├── public/                 # Static assets (images, PDF resume, icons)
+├── src/
+│   ├── app/
+│   │   ├── layout.jsx      # Root HTML layout with SEO metadata
+│   │   └── page.jsx        # Main portfolio assembly page
+│   ├── Components/         # Modular React UI components
+│   │   ├── AboutSection.jsx
+│   │   ├── ContactSection.jsx
+│   │   ├── ExperienceSection.jsx
+│   │   ├── Fade.jsx        # Client-side IntersectionObserver animation wrapper
+│   │   ├── HeroSection.jsx
+│   │   ├── Navbar.jsx      # Navigation header with active scroll spy
+│   │   ├── SkillCard.jsx
+│   │   ├── SkillsSection.jsx
+│   │   └── Styles/         # CSS Modules for components
+│   └── index.css           # Design tokens, variables & global resets
+├── next.config.mjs         # Next.js static export configuration
+└── package.json            # Scripts & project dependencies
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Node.js](https://nodejs.org/) (v18.x or later)
+- [npm](https://www.npmjs.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the repository and install dependencies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+git clone https://github.com/ks-1007/ks-portfolio.git
+cd ks-portfolio
+npm install
+```
 
-## Learn More
+### Available Scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts local Next.js development server at `http://localhost:3000` |
+| `npm run build` | Compiles and generates static HTML export in the `out/` folder |
+| `npm start` | Previews the static export production build locally |
+| `npm run lint` | Runs Next.js ESLint checks |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Because the project is configured with `output: 'export'`, the `out/` folder contains pure static HTML, CSS, JavaScript, and assets that can be hosted on any static hosting provider:
 
-### Analyzing the Bundle Size
+- **Vercel**: Connect the repository — Vercel detects Next.js automatically.
+- **GitHub Pages**: Deploy the contents of the `out/` folder.
+- **Netlify**: Set publish directory to `out`.
+- **Cloudflare Pages**: Set build output directory to `out`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email**: [krsaurav1007@gmail.com](mailto:krsaurav1007@gmail.com)
+- **LinkedIn**: [linkedin.com/in/kumar-saurav-90a898179](https://www.linkedin.com/in/kumar-saurav-90a898179/)
+- **GitHub**: [github.com/ks-1007](https://github.com/ks-1007)

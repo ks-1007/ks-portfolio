@@ -1,14 +1,9 @@
-import { ProjectCard } from "./ProjectCard"
-import styles from "./Styles/ProjectsSection.module.css"
-import { SiReact } from "react-icons/si"
-import { SiJavascript } from "react-icons/si"
-import { SiHtml5 } from "react-icons/si"
-import { SiCss3 } from "react-icons/si"
-import { SiRedux } from "react-icons/si"
-import { SiNodedotjs } from "react-icons/si"
-import { SiExpress } from "react-icons/si"
-import { SiMongodb } from "react-icons/si"
-import Fade from "react-reveal/Fade"
+import { ProjectCard } from "./ProjectCard";
+import styles from "./Styles/ProjectsSection.module.css";
+import { SiReact, SiJavascript, SiHtml5, SiRedux, SiNodedotjs, SiExpress, SiMongodb } from "react-icons/si";
+import { FaCss3Alt } from "react-icons/fa";
+import Fade from "./Fade";
+
 const projects = [
   {
     name: "LinkedIn.com clone",
@@ -18,12 +13,12 @@ const projects = [
     about:
       "LinkedIn is a leading professional networking and employment oriented online platform. Implemented features to connect with others, create posts, like, comment, show notifications and more",
     stacks: [
-      <SiReact className={styles.stackIcon} />,
-      <SiNodedotjs className={styles.stackIcon} />,
-      <SiExpress className={styles.stackIcon} />,
-      <SiMongodb className={styles.stackIcon} />,
-      <SiJavascript className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} key="react" />,
+      <SiNodedotjs className={styles.stackIcon} key="node" />,
+      <SiExpress className={styles.stackIcon} key="express" />,
+      <SiMongodb className={styles.stackIcon} key="mongo" />,
+      <SiJavascript className={styles.stackIcon} key="js" />,
+      <FaCss3Alt className={styles.stackIcon} key="css" />,
     ],
   },
   {
@@ -34,10 +29,10 @@ const projects = [
     about:
       "Glassdoor is a leading job searching and company reviewing platform. Implemented features to post jobs, search and apply for jobs, compare companies based on rating and sign-in/sign-up",
     stacks: [
-      <SiReact className={styles.stackIcon} />,
-      <SiJavascript className={styles.stackIcon} />,
-      <SiHtml5 className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} key="react" />,
+      <SiJavascript className={styles.stackIcon} key="js" />,
+      <SiHtml5 className={styles.stackIcon} key="html" />,
+      <FaCss3Alt className={styles.stackIcon} key="css" />,
     ],
   },
   {
@@ -47,33 +42,13 @@ const projects = [
     git: "https://github.com/ks-1007/Airbnb-clone",
     about:
       "Airbnb is a hotel booking online platform. Implemented features to search for hotels based on ratings, reviews and price range and then booking it after selecting check-in & check-out dates",
-
     stacks: [
-      <SiReact className={styles.stackIcon} />,
-      <SiRedux className={styles.stackIcon} />,
-
-      <SiJavascript className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
+      <SiReact className={styles.stackIcon} key="react" />,
+      <SiRedux className={styles.stackIcon} key="redux" />,
+      <SiJavascript className={styles.stackIcon} key="js" />,
+      <FaCss3Alt className={styles.stackIcon} key="css" />,
     ],
   },
-  // {
-  //   name: "Contio",
-  //   img: "/contio.png",
-  //   link: "https://contio.netlify.app/",
-  //   git: "https://github.com/chandan1499/contio",
-  //   about:
-  //     "Contio is an online portal where anyone can ask there doubts and anyone can become a mentor to help their peers using a built-in chat app",
-
-  //   stacks: [
-  //     <SiReact className={styles.stackIcon} />,
-  //     <SiNodedotjs className={styles.stackIcon} />,
-  //     <SiExpress className={styles.stackIcon} />,
-  //     <SiMongodb className={styles.stackIcon} />,
-  //     <SiJavascript className={styles.stackIcon} />,
-  //     <SiCss3 className={styles.stackIcon} />,
-  //   ],
-  // },
-
   {
     name: "Sephora.com clone",
     img: "/sephora.png",
@@ -82,25 +57,34 @@ const projects = [
     about:
       "Sephora is an American e-commerce website which sells beauty products. Features are implemented to select products from carousel and add products to cart and do CRUD operations",
     stacks: [
-      <SiJavascript className={styles.stackIcon} />,
-      <SiHtml5 className={styles.stackIcon} />,
-      <SiCss3 className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} key="js" />,
+      <SiHtml5 className={styles.stackIcon} key="html" />,
+      <FaCss3Alt className={styles.stackIcon} key="css" />,
     ],
   },
-]
+];
+
 export function ProjectsSection() {
   return (
-    <div className={styles.projectsSectionCont} id="projects">
+    <section className={styles.projectsSectionCont} id="projects">
       <Fade bottom>
-        <p>Projects</p>
+        <div className={styles.sectionHeading}>
+          <p className={styles.eyebrow}>Selected work</p>
+          <h2>Projects</h2>
+          <p className={styles.intro}>
+            A selection of product experiences built with modern frontend tools.
+          </p>
+        </div>
       </Fade>
       <div className={styles.projectGrid}>
-        {projects.map((project) => (
-          <Fade bottom>
+        {projects.map((project, index) => (
+          <Fade bottom key={index}>
             <ProjectCard {...project} />
           </Fade>
         ))}
       </div>
-    </div>
-  )
+    </section>
+  );
 }
+
+export default ProjectsSection;

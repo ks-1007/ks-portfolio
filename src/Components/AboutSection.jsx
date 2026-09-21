@@ -1,5 +1,5 @@
 import styles from "./Styles/AboutSection.module.css";
-import Fade from "react-reveal/Fade";
+import Fade from "./Fade";
 
 export function AboutSection() {
   return (
@@ -34,3 +34,5 @@ export function AboutSection() {
     </div>
   );
 }
+
+export default AboutSection;

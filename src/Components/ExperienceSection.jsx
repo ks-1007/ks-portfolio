@@ -1,5 +1,5 @@
 import styles from "./Styles/ExperienceSection.module.css";
-import Fade from "react-reveal/Fade";
+import Fade from "./Fade";
 
 const experiences = [
   {
@@ -78,3 +78,5 @@ export function ExperienceSection() {
     </div>
   );
 }
+
+export default ExperienceSection;
